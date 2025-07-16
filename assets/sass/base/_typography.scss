@@ -42,6 +42,10 @@
 			strong {
 				color: inherit;
 			}
+
+      h3 {
+        color: inherit;
+      }
 		}
 	}
 
@@ -171,6 +175,10 @@
 
 		&.major {
 			margin: (_size(element-margin) * 1.5) 0;
+		}
+
+    &.major-small {
+			margin: (_size(element-margin) * 0.5) 0;
 		}
 	}
 
