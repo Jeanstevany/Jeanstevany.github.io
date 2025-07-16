@@ -1701,12 +1701,22 @@ a.image:hover img {
   border: 0;
   display: inline-block;
   position: relative;
+  margin-bottom: 3em;
 }
 .image-round img {
   border-radius: 50%;
-  margin: 5em 5em 5em 5em;
-  width: 290px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 290px;
   display: block;
+}
+@media screen and (orientation: landscape) {
+  .image-round {
+    margin-left: 2em;
+  }
+  .image-round img {
+    max-width: 370px;
+  }
 }
 
 /* List */
